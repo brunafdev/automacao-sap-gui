@@ -3,7 +3,7 @@
 > **Status:** Concluído (Legado)
 > **Contexto:** Solução desenvolvida para automatizar processos em ambiente onde o **SAP Scripting estava bloqueado**.
 
-### 💼 O Desafio
+### O Desafio
 A equipe precisava consultar dados bancários de centenas de fornecedores diariamente. O processo era 100% manual e repetitivo.
 A ferramenta oficial de automação (SAP Scripting API) ainda não estava habilitada para o perfil de usuário, impedindo o uso de scripts VBA ou Python diretos.
 
@@ -23,7 +23,7 @@ Por ser uma automação baseada em coordenadas visuais (pixels e imagens), esta 
 
 > *Nota: Atualmente, recomendo o uso do **SAP Scripting nativo** (quando disponível) para maior robustez e precisão (100%), eliminando a margem de erro visual.*
 
-### 🛠️ Tecnologias
+### Tecnologias
 * **Python 3.x**
 * **PyAutoGUI** (Controle de Mouse/Teclado e Busca de Imagem)
 * **OpenPyXL** (Manipulação de Excel)
