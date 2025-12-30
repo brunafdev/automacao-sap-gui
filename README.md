@@ -16,7 +16,8 @@ Como alternativa, desenvolvi um robô baseado em **reconhecimento de imagem** qu
 3.  **Visão:** Utiliza a biblioteca `PyAutoGUI` para localizar campos na tela (ex: "Aba Dados Bancários") através de *printscreens* de referência.
 4.  **Extração:** Copia os dados para a área de transferência e salva na planilha.
 
-   graph TD
+```mermaid
+graph TD
     A[📄 Início: Ler Planilha Excel] -->|Loop por Linha| B{Tem código?}
     B -- Não --> Z[💾 Salvar e Finalizar]
     B -- Sim --> C[📋 Copiar Código ERP]
