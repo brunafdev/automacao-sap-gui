@@ -28,3 +28,14 @@ Por ser uma automação baseada em coordenadas visuais (pixels e imagens), esta 
 * **PyAutoGUI** (Controle de Mouse/Teclado e Busca de Imagem)
 * **OpenPyXL** (Manipulação de Excel)
 * **PyPerClip** (Gestão de Clipboard)
+
+```mermaid
+graph TD
+    A[📄 Início: Ler Planilha Excel] -->|Loop por Linha| B{Tem código?}
+    B -- Não --> Z[💾 Salvar e Finalizar]
+    B -- Sim --> C[📋 Copiar Código ERP]
+    C --> D[👁️ PyAutoGUI: Localizar Campo no SAP]
+    D --> E[🖱️ Simular Cliques e Atalhos]
+    E --> F[📥 Extrair Dados Bancários]
+    F --> G[📝 Gravar no Excel]
+    G --> B
