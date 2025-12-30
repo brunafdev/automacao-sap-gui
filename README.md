@@ -7,7 +7,7 @@
 A equipe precisava consultar dados bancários de centenas de fornecedores diariamente. O processo era 100% manual e repetitivo.
 A ferramenta oficial de automação (SAP Scripting API) ainda não estava habilitada para o perfil de usuário, impedindo o uso de scripts VBA ou Python diretos.
 
-### 💡 A Solução: RPA Visual (Computer Vision)
+### 💡 A Solução: RPA Visual
 Como alternativa, desenvolvi um robô baseado em **reconhecimento de imagem** que simula a interação humana (mouse e teclado).
 
 **Fluxo da Automação:**
