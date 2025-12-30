@@ -16,6 +16,16 @@ Como alternativa, desenvolvi um robô baseado em **reconhecimento de imagem** qu
 3.  **Visão:** Utiliza a biblioteca `PyAutoGUI` para localizar campos na tela (ex: "Aba Dados Bancários") através de *printscreens* de referência.
 4.  **Extração:** Copia os dados para a área de transferência e salva na planilha.
 
+   graph TD
+    A[📄 Início: Ler Planilha Excel] -->|Loop por Linha| B{Tem código?}
+    B -- Não --> Z[💾 Salvar e Finalizar]
+    B -- Sim --> C[📋 Copiar Código ERP]
+    C --> D[👁️ PyAutoGUI: Localizar Campo no SAP]
+    D --> E[🖱️ Simular Cliques e Atalhos]
+    E --> F[📥 Extrair Dados Bancários]
+    F --> G[📝 Gravar no Excel]
+    G --> B
+
 ### ⚠️ Limitações Conhecidas & Aprendizados
 Por ser uma automação baseada em coordenadas visuais (pixels e imagens), esta solução possui dependências:
 * **Resolução de Tela:** O robô depende da resolução do monitor ser mantida.
