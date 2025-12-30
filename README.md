@@ -1,7 +1,7 @@
 # 🖱️ Bot de Automação SAP GUI
 
 > **Status:** Concluído (Legado)
-> **Contexto:** Solução desenvolvida para automatizar processos em ambiente onde o **SAP Scripting estava bloqueado** por políticas de segurança.
+> **Contexto:** Solução desenvolvida para automatizar processos em ambiente onde o **SAP Scripting estava bloqueado**.
 
 ### 💼 O Desafio
 A equipe precisava consultar dados bancários de centenas de fornecedores diariamente. O processo era 100% manual e repetitivo.
