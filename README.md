@@ -1,4 +1,4 @@
-# 🖱️ Bot de Automação SAP GUI (Visão Computacional)
+# 🖱️ Bot de Automação SAP GUI
 
 > **Status:** Concluído (Legado)
 > **Contexto:** Solução desenvolvida para automatizar processos em ambiente onde o **SAP Scripting estava bloqueado** por políticas de segurança.
